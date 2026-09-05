@@ -1,0 +1,39 @@
+baseURL = "https://MTdaibo.github.io/boke/"
+title = "MTdaibo 的博客"
+theme = "PaperMod"
+languageCode = "zh-CN"
+enableRobotsTXT = true
+enableEmoji = true
+pygmentsUseClasses = true
+
+# 中文技术博客:干净、轻量的 PaperMod 配置
+[params]
+  env = "production"
+  description = "个人技术博客:Hermes Agent / AI 工程 / 多智能体系统实践"
+  author = "MTdaibo"
+  defaultTheme = "auto"
+  ShowReadingTime = true
+  ShowWordCount = true
+  ShowToc = true
+  TocOpen = false
+  ShowCodeCopyButtons = true
+  ShowBreadCrumbs = true
+  ShowPostNavLinks = true
+  ShowShareButtons = false
+  ShowFullTextinRSS = false
+  disableSpecial1stPost = false
+  hideSummary = false
+
+[homeInfoParams]
+  Title = "MTdaibo 的博客"
+  Content = "记录 Hermes Agent 与 AI 工程的实践与思考"
+
+[[menus.main]]
+  name = "文章"
+  url = "/posts/"
+  weight = 10
+
+[[menus.main]]
+  name = "标签"
+  url = "/tags/"
+  weight = 20

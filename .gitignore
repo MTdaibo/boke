@@ -1,0 +1,8 @@
+# build output
+/public/
+
+# local scratch
+/hugo
+
+# OS
+.DS_Store
